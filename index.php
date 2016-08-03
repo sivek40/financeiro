@@ -12,7 +12,24 @@
     <script type="text/javascript" src="bower_components/underscore/underscore.js"></script>
     <script type="text/javascript" src="bower_components/backbone/backbone.js"></script>
     
+    <script type="text/javascript" src="js/financeiro.js"></script>
     <script type="text/javascript" src="js/principal.js"></script>
+    
+    <style>
+        #saldo-total{
+            font-weight: bold;
+            font-size: 12pt;
+        }
+        .negativo {
+            color: red;
+        }
+        .positivo {
+            color: blue;
+        }
+        .valor {
+            text-align: right;
+        }
+    </style>
 
   </head>
 
@@ -68,29 +85,23 @@
 
           <h2 class="sub-header">Conta corrente</h2>
           <div class="table-responsive">
-            <table class="table table-striped">
+            <table class="table table-striped" id="tbl-cc">
               <thead>
                 <tr>
                   <th>Data</th>
                   <th>Descrição</th>
                   <th>Categoria</th>
                   <th>Tipo (D/C)</th>
-                  <th>Valor</th>
+                  <th class="valor">Valor</th>
                 </tr>
               </thead>
               <tbody>
-                <tr>
-                  <td>10/02/2016</td>
-                  <td>Loja Renner</td>
-                  <td>Vestuário</td>
-                  <td>D</td>
-                  <td>R$ -245,89</td>
-                </tr>
+
               </tbody>
               <tfoot>
                   <tr>
                       <td colspan="4">Saldo: </td>
-                      <td>R$ 123,00</td>
+                      <td id="saldo-total" class="valor">R$ 123,00</td>
                   </tr>
               </tfoot>
             </table>

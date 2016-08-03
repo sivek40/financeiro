@@ -1,0 +1,32 @@
+[
+{
+    "nome": "Curitiba",
+    "uf": "PR",
+    "id": 12
+},
+{
+    "nome": "Maringá",
+    "uf": "PR",
+    "id": 16
+},
+{
+    "nome": "Cuiabá",
+    "uf": "MT",
+    "id": 14
+},
+{
+    "nome": "São Paulo",
+    "uf": "SP",
+    "id": 19
+},
+{
+    "nome": "Pindamonhangaba",
+    "uf": "SP",
+    "id": 13
+},
+{
+    "nome": "Alegrete",
+    "uf": "RS",
+    "id": 15
+}
+]
